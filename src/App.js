@@ -15,7 +15,8 @@ const connect = () =>
     const port = '';
 
     const algodClient = new algosdk.Algodv2(token, baseServer, port);
-    console.log("Connected ...")
+    console.log("Connected ......")
+    console.log("commit");
   })
   .catch((e) => {
     console.error(e);
